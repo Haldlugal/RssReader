@@ -1,0 +1,32 @@
+<resources>
+    <string name="appName">RSS Reader</string>
+    <string name="showRssListBtnText">Перейти к списку всех новостей</string>
+    <string name="addNewChannelBtnText">Добавить новый канал</string>
+    <string name="addChannelBtnText">Добавить канал</string>
+    <string name="channelNameLabelTxt">Название канала</string>
+    <string name="channelUrlLabelTxt">URL канала</string>
+    <string name="channelItemDeleteBtn">Удалить</string>
+
+    <string name="settings_theme_list_title">Тема</string>
+    <string name="settings_theme_list_dialog">Выберите тему</string>
+    <string name="settings_theme_list">theme</string>
+
+    <string name="menuItem1">Настройки</string>
+    <string name="channelNameHint">Введите имя канала</string>
+    <string name="channelUrlHint">Введите URL канала</string>
+
+    <string name="malformedUrlError">Неправильный URL </string>
+    <string name="parsingArticlesError">Ошибка при парсинге статьи</string>
+    <string name="unknownHostError">Введенный адрес не существует </string>
+    <string name="errorWhileReceivingRss">При получении Rss произошла ошибка </string>
+    <string name="errorAddingArticle">Ошибка при добавлении статьи в базу данных</string>
+
+    <string name="dbDeletingChannelError">Ошибка при удалении канала</string>
+    <string name="dbAddingChannelError">Ошибка при добавлении канала</string>
+    <string name="dbSelectingChannelError">Ошибка при чтении списка каналов</string>
+
+    <string name="noChannelName">Не указано имя канала</string>
+    <string name="noChannelUrl">Не указан URL</string>
+    <string name="incorrectUrl">Некорректный URL</string>
+
+</resources>

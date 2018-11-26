@@ -1,0 +1,34 @@
+<resources>
+    <string name="appName">RSS Reader</string>
+    <string name="showRssListBtnText">All news</string>
+    <string name="addNewChannelBtnText">Add new channel</string>
+    <string name="addChannelBtnText">Add channel</string>
+    <string name="channelNameLabelTxt">Channel name</string>
+    <string name="channelUrlLabelTxt">Channel URL</string>
+    <string name="channelItemDeleteBtn">Delete</string>
+
+
+    <string name="settings_default_value" translatable="false">AppTheme</string>
+    <string name="settings_theme_list_title">Theme</string>
+    <string name="settings_theme_list_dialog">Choose Theme</string>
+    <string name="settings_theme_list">theme</string>
+
+    <string name="menuItem1">Settings</string>
+    <string name="channelNameHint">Enter channel name</string>
+    <string name="channelUrlHint">Enter channel URL</string>
+
+    <string name="malformedUrlError">Malformed Url </string>
+    <string name="parsingArticlesError">Error while parsing articles</string>
+    <string name="unknownHostError">No address associated with hostname: </string>
+    <string name="errorWhileReceivingRss">Error happened while receiving rss from url </string>
+    <string name="errorAddingArticle">Error while adding article to database</string>
+
+    <string name="dbDeletingChannelError">Database error while deleting channel </string>
+    <string name="dbAddingChannelError">Database error. Channel was not added</string>
+    <string name="dbSelectingChannelError">Database error while selecting channels </string>
+
+    <string name="noChannelName">No channel name</string>
+    <string name="noChannelUrl">No channel URL</string>
+    <string name="incorrectUrl">Incorrect URL</string>
+
+</resources>

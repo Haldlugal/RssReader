@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themes_names">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+</resources>

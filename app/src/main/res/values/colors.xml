@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="channelBackgroundColor">#ced8f2</color>
+    <color name="separationLineColor">#103a47</color>
+
+    <color name="dark_background">#303030</color>
+    <color name="DarkText">#262626</color>
+</resources>

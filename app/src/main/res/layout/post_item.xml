@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/postItemPanel">
+
+    <TextView
+        android:id="@+id/urlToFullArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/postItemTitle"
+        tools:text="This is a post title, it is pretty long. I would like it to be 2 lines long" />
+
+    <TextView
+        android:id="@+id/postDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/postItemDate"
+        tools:text="October 10, 2018" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_line_height"
+        android:background="@color/separationLineColor"
+        >
+    </LinearLayout>
+</LinearLayout>

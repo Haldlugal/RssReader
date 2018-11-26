@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="name_text">18sp</dimen>
+    <dimen name="url_text">12sp</dimen>
+    <dimen name="separation_line_height">2dp</dimen>
+</resources>

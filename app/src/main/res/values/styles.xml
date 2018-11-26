@@ -1,0 +1,68 @@
+<resources>
+
+    <style name="LightTheme" parent="@android:style/Theme.Holo.Light">
+    </style>
+
+    <style name="DarkTheme" parent="android:Theme.Holo" >
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="android:textColor">@color/DarkText</item>
+    </style>
+
+    <style name="channelScreenButtons">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@drawable/button_rounded</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="channelItemButtons">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">@drawable/channel_item_button</item>
+
+    </style>
+
+    <style name="addChannelLayout">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="channelItem">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="postItemPanel">
+        <item name="android:background">@color/channelBackgroundColor</item>
+    </style>
+    <style name="postItemTitle">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="postItemDate">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#939393</item>
+    </style>
+
+    <style name="articleFullTitle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#363636</item>
+    </style>
+
+
+</resources>
